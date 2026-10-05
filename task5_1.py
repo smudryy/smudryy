@@ -4,7 +4,7 @@ x = float(input("Enter a number x: "))
 
 if x > 12.1:
     term1 = math.log(abs(x - 1))
-    term2 = math.log10*(abs((x ** (0.7 * x)) + 2))
+    term2 = math.log10(abs((x ** (0.7 * x)) + 2))
     y = term1 + term2
 elif -5.7 <= x <= 12.1:
     cube_root = math.copysign(abs(x) ** (1 / 3), x)
