@@ -5,11 +5,11 @@ b = float(input("Enter range end b: "))
 h = float(input("Enter step h: "))
 
 print("1. Loop with parameter")
-x = a
-while x <= b + 1e-9:
+steps = round((b - a) / h) + 1
+for i in range(steps):
+  x = a + i * h
   fx = math.cos(x) / (1 + abs(math.sin(x)))
   print(f"x = {x:.4f}, f(x) = {fx:.4f}")
-  x += h
 
 print("2. Loop with precondition")
 x = a
