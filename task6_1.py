@@ -13,7 +13,7 @@ for i in range(steps):
 
 print("2. Loop with precondition")
 x = a
-while x <= b + 1e-9:
+while x <= b:
   fx = math.cos(x) / (1 + abs(math.sin(x)))
   print(f"x = {x:.4f}, f(x) = {fx:.4f}")
   x += h
@@ -21,7 +21,7 @@ while x <= b + 1e-9:
 print("3. Lists and element search")
 values = []
 x = a
-while x <= b + 1e-9:
+while x <= b:
   fx = math.cos(x) / (1 + abs(math.sin(x)))
   values.append(fx)
   x += h
