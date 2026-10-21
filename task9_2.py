@@ -1,11 +1,9 @@
-# Множина з 7-10 ключових слів сайту
 keywords = {
     "programming", "python", "website", "database",
     "network", "server", "algorithm", "browser"
 }
 
 def remove_repeating(word):
-    """Удаляет из слова все символы, которые в нём повторяются."""
     seen_once = set()      # символы, встретившиеся хотя бы раз
     repeated = set()       # символы, встретившиеся 2+ раз
     for ch in word:
