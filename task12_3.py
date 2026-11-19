@@ -1,6 +1,5 @@
 import geometric
 
-
 def main():
     b1 = float(input("Введіть перший член b1: "))
     q = float(input("Введіть знаменник q: "))

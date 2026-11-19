@@ -7,7 +7,7 @@ NAMES = [
 
 
 def generate_line(names, max_length=100):
-    limit = random.randint(1, max_length)
+    limit = max_length
     line = ""
     while True:
         name = random.choice(names)
