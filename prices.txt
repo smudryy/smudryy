@@ -1,0 +1,1 @@
+{"iPhone 15": 800, "Galaxy S24": 750, "Pixel 8": 600, "Redmi Note 13": 250, "Nokia G42": 200, "Xiaomi 13T": 500, "Moto G84": 230}

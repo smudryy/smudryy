@@ -1,0 +1,1 @@
+{"iPhone 15": 2023, "Galaxy S24": 2024, "Pixel 8": 2023, "Redmi Note 13": 2024, "Nokia G42": 2023, "Xiaomi 13T": 2023, "Moto G84": 2023}
